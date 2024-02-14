@@ -220,7 +220,7 @@ function resetCalculator() {
 	
 <div style="margin-bottom: 25px;"></div>
  
-<body style="background-color:#FFA1F6;">
+<body style="background-color:#BE8AFF;">
   <h1>Menu Calculator</h1>
   
   <h2>Menu Items</h2>
@@ -489,3 +489,8 @@ function resetCalculator() {
   
   
   <div style="margin-bottom: 45px;"></div>
+
+
+  <button class="calculate-button" onclick="calculateTotal()">Calculate Total</button>
+  <button class="submit-button" onclick="submitAndReset()">Submit Order</button>
+  <button class="reset-button" onclick="resetCalculator()">Reset</button>
