@@ -443,8 +443,8 @@ function resetCalculator() {
   <h3> Discount Items</h3> 
 
 <div>
-  <input type="checkbox" id="50off" value="-40%">
-  <label for="50off">Employee Discount - 40% off</label>
+  <input type="checkbox" id="50off" value="-50%">
+  <label for="50off">Employee Discount - 50% off</label>
   <input type="number" value="1" min="1" max="1">
 </div>
 
