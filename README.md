@@ -152,7 +152,7 @@
 
     alert('Order submitted!');
 
-    var discordWebhookURL = 'https://discord.com/api/webhooks/1205697839481749545/iRpz5OJe-oaSBWXr8XUxu1Npyu6NkNi78qPU9_r0VnxE5SoT5HR0M0fItBhvYAJBq4ax'
+    var discordWebhookURL = 'https://discord.com/api/webhooks/1207147679638097930/4jSY5L4053GJrFsI3-_Y5lJL10E3_cFH1Me958DF2vjeJ05_RI3iXlGJvk_LLqhr7kFm'
 
     var xhr = new XMLHttpRequest();
     xhr.open('POST', discordWebhookURL, true);
@@ -227,49 +227,79 @@ function resetCalculator() {
 
   <div style="margin-bottom: 10px;"></div>
   
-  <h3>Food</h3>
+  <h3>Pizza</h3>
 
   <div style="margin-bottom: 10px;"></div>
   
   <div>
     <input type="checkbox" id="uwueats" value="150$">
-    <label for="Velmachoice">Salad - $</label>150
+    <label for="Velmachoice">Margherita - $</label>150
     <input type="number" value="1" min="1">
   </div>
   
   <div>
+    <input type="checkbox" id="Davechoice" value="200$">
+    <label for="Davechoice">Pepperoni - $</label>200
+    <input type="number" value="1" min="1">
+  </div>
+  
+  <div>
+    <input type="checkbox" id="Davechoice" value="200$">
+    <label for="Davechoice">San Manzano - $</label>200
+    <input type="number" value="1" min="1">
+  </div>
+
+   <div style="margin-bottom: 10px;"></div>
+  
+  <h3>Pasta</h3>
+
+  <div style="margin-bottom: 10px;"></div>
+  
+  <div>
+    <input type="checkbox" id="Davechoice" value="200$">
+    <label for="Davechoice">Pasta Fresca - $</label>200
+    <input type="number" value="1" min="1">
+  </div>
+
+  <div>
+    <input type="checkbox" id="Davechoice" value="175$">
+    <label for="Davechoice">Pesto Cavatappi - $</label>175
+    <input type="number" value="1" min="1">
+  </div>
+
+  <div>
+    <input type="checkbox" id="Davechoice" value="175$">
+    <label for="Davechoice">Spaghetti Bolognese - $</label>175
+    <input type="number" value="1" min="1">
+  </div>
+
+  
+  
+  <h3>Sandwiches</h3>
+
+  <div style="margin-bottom: 10px;"></div>
+
+  <div>
+    <input type="checkbox" id="Davechoice" value="150$">
+    <label for="Davechoice">Turkey - $</label>150
+    <input type="number" value="1" min="1">
+  </div>
+
+   <div>
+    <input type="checkbox" id="Davechoice" value="150$">
+    <label for="Davechoice">Beef - $</label>150
+    <input type="number" value="1" min="1">
+  </div>
+
+   <div>
     <input type="checkbox" id="Davechoice" value="150$">
     <label for="Davechoice">BLT - $</label>150
     <input type="number" value="1" min="1">
   </div>
-  
-  <div>
-    <input type="checkbox" id="Davechoice" value="150$">
-    <label for="Davechoice">Turkey Sandwich - $</label>150
-    <input type="number" value="1" min="1">
-  </div>
-  
-  <div>
-    <input type="checkbox" id="Davechoice" value="150$">
-    <label for="Davechoice">Beef Sandwich - $</label>150
-    <input type="number" value="1" min="1">
-  </div>
 
-  <div>
+   <div>
     <input type="checkbox" id="Davechoice" value="150$">
-    <label for="Davechoice">Crisp Sandwich - $</label>150
-    <input type="number" value="1" min="1">
-  </div>
-
-  <div>
-    <input type="checkbox" id="Davechoice" value="200$">
-    <label for="Davechoice">Chocolate Pancakes - $</label>200
-    <input type="number" value="1" min="1">
-  </div>
-
-  <div>
-    <input type="checkbox" id="Davechoice" value="200$">
-    <label for="Davechoice">Fruit Explosions - $</label>200
+    <label for="Davechoice">Fries - $</label>150
     <input type="number" value="1" min="1">
   </div>
   
@@ -278,80 +308,23 @@ function resetCalculator() {
   <div style="margin-bottom: 10px;"></div>
   
   <div>
-    <input type="checkbox" id="uwueats" value="150$">
-    <label for="Velmachoice">Green Tea - $</label>150
+    <input type="checkbox" id="uwueats" value="200$">
+    <label for="Velmachoice">Lemonade - $</label>200
     <input type="number" value="1" min="1">
   </div>
   
   <div>
-    <input type="checkbox" id="Davechoice" value="150$">
-    <label for="Davechoice">Iced Coffee - $</label>150
+    <input type="checkbox" id="Davechoice" value="200$">
+    <label for="Davechoice">Espresso - $</label>200
     <input type="number" value="1" min="1">
   </div>
 
    <div>
     <input type="checkbox" id="Davechoice" value="150$">
-    <label for="Davechoice">Matcha Tea - $</label>150
+    <label for="Davechoice">Cola - $</label>150
     <input type="number" value="1" min="1">
   </div>
 
-  <div>
-    <input type="checkbox" id="Davechoice" value="150$">
-    <label for="Davechoice">Boba Tea - $</label>150
-    <input type="number" value="1" min="1">
-  </div>
-
-   <div>
-    <input type="checkbox" id="Davechoice" value="200$">
-    <label for="Davechoice">Pumpkin Spiced Latte - $</label>200
-    <input type="number" value="1" min="1">
-  </div>
-
-  <div>
-    <input type="checkbox" id="Davechoice" value="200$">
-    <label for="Davechoice">Cat Tuccinos - $</label>200
-    <input type="number" value="1" min="1">
-  </div>
-
-  <div>
-    <input type="checkbox" id="Davechoice" value="200$">
-    <label for="Davechoice">Fresh Lemonade - $</label>200
-    <input type="number" value="1" min="1">
-  </div>
- 
-   <h3>Dessert</h3>
-
-  <div style="margin-bottom: 10px;"></div>
-  
- <div>
-    <input type="checkbox" id="Davechoice" value="150$">
-    <label for="Davechoice">Homemade Cookie - $</label>150
-    <input type="number" value="1" min="1">
-  </div>
-
-  <div>
-    <input type="checkbox" id="Davechoice" value="150$">
-    <label for="Davechoice">Apple Crumble - $</label>150
-    <input type="number" value="1" min="1">
-  </div>
-
-  <div>
-    <input type="checkbox" id="Davechoice" value="150$">
-    <label for="Davechoice">Cat Donut - $</label>150
-    <input type="number" value="1" min="1">
-  </div>
-
-  <div>
-    <input type="checkbox" id="Davechoice" value="150$">
-    <label for="Davechoice">Cat Cupcake - $</label>150
-    <input type="number" value="1" min="1">
-  </div>
-
-  <div>
-    <input type="checkbox" id="Davechoice" value="200$">
-    <label for="Davechoice">Frozen Yogurt - $</label>200
-    <input type="number" value="1" min="1">
-  </div>
   
   
    <h3> Meal Deals</h3>
@@ -360,68 +333,89 @@ function resetCalculator() {
   
   <div>
     <input type="checkbox" id="uwueats" value="1600$">
-    <label for="Velmachoice">A Purrr-fect Lunch- $</label>1600
+    <label for="Velmachoice">Taylor Special- $</label>1600
     <input type="number" value="1" min="1">
   </div>
   
   <div>
     <input type="checkbox" id="Davechoice" value="2500$">
-    <label for="Davechoice">The BTS- $</label>2500
+    <label for="Davechoice">Love from Italy Special- $</label>2500
     <input type="number" value="1" min="1">
   </div>
 
   <div>
     <input type="checkbox" id="Davechoice" value="5000$">
-    <label for="Davechoice">The Tabby Snack- $</label>5000
+    <label for="Davechoice">Mega Combo- $</label>5000
     <input type="number" value="1" min="1">
   </div>
 
    
-  <h3>Cat Tuccino Specials</h3>
+  <h3>Espresso Specials</h3>
  
    <div>
     <input type="checkbox" id="Davechoice" value="1600$">
-    <label for="Davechoice">10- Cat Tuccinos - $</label>1600
+    <label for="Davechoice">10- Espresso - $</label>1600
     <input type="number" value="1" min="1">
   </div>
 
    <div>
     <input type="checkbox" id="Davechoice" value="2500$">
-    <label for="Davechoice">20- Cat Tuccinos - $</label>2500
+    <label for="Davechoice">20- Espresso - $</label>2500
     <input type="number" value="1" min="1">
   </div>
 
    <div>
     <input type="checkbox" id="Davechoice" value="3500$">
-    <label for="Davechoice">30- Cat Tuccinos - $</label>3500
+    <label for="Davechoice">30- Espresso - $</label>3500
     <input type="number" value="1" min="1">
   </div>
 
    <div>
     <input type="checkbox" id="Davechoice" value="4500$">
-    <label for="Davechoice">40- Cat Tuccinos - $</label>4500
+    <label for="Davechoice">40- Espresso - $</label>4500
     <input type="number" value="1" min="1">
   </div>
 
    <div>
     <input type="checkbox" id="Davechoice" value="5500$">
-    <label for="Davechoice">50- Cat Tuccinos - $</label>5500
+    <label for="Davechoice">50- Espresso - $</label>5500
     <input type="number" value="1" min="1">
   </div>
 
    <div>
     <input type="checkbox" id="Davechoice" value="9000$">
-    <label for="Davechoice">100- Cat Tuccinos - $</label>9000
+    <label for="Davechoice">100- Espresso - $</label>9000
     <input type="number" value="1" min="1">
   </div>
 
-<h3>Fruit Explosion Special</h3>
+  <h3>Extras</h3>
 
-   <div>
-    <input type="checkbox" id="Davechoice" value="4500$">
-    <label for="Davechoice">32- Fruit Explosions - $</label>4500
+  <div style="margin-bottom: 10px;"></div>
+
+  <div>
+    <input type="checkbox" id="Davechoice" value="500$">
+    <label for="Davechoice">Delivery - $</label>500
     <input type="number" value="1" min="1">
   </div>
+
+  <div>
+    <input type="checkbox" id="Davechoice" value="350$">
+    <label for="Davechoice">Boxes - $</label>350
+    <input type="number" value="1" min="1">
+  </div>
+
+  <div>
+    <input type="checkbox" id="Davechoice" value="150$">
+    <label for="Davechoice">Carrying Bag - $</label>150
+    <input type="number" value="1" min="1">
+  </div>
+
+  <div>
+    <input type="checkbox" id="Davechoice" value="100$">
+    <label for="Davechoice">Coffee Holder - $</label>100
+    <input type="number" value="1" min="1">
+  </div>
+
 
    <h3>Special Events</h3>
    <div>
@@ -442,28 +436,6 @@ function resetCalculator() {
     <input type="number" value="1" min="1">
   </div>
 
-  <h3>Mystery Gifts</h3>
-
-  <div>
-    <input type="checkbox" id="Davechoice" value="1500$">
-    <label for="Davechoice">1 Box - $</label>1500
-    <input type="number" value="1" min="1">
-  </div>
-
-  <div>
-    <input type="checkbox" id="Davechoice" value="4500$">
-    <label for="Davechoice">3 Boxes - $</label>4500
-    <input type="number" value="1" min="1">
-  </div>
-
-  <div>
-    <input type="checkbox" id="Davechoice" value="6000$">
-    <label for="Davechoice">5 Boxes - $</label>6000
-    <input type="number" value="1" min="1">
-  </div>
-
-  
-    
   
 
 <div style="margin-bottom: 10px;"></div>
@@ -487,15 +459,6 @@ function resetCalculator() {
   <label for="25off">Mechs - 15% off</label>
   <input type="number" value="1" min="1" max="1">
 </div>
-
-<h3> Delivery </h3>
-  
-  <div>
-    <input type="checkbox" id="ColinChoice" value="1000"><!--The price is the value, change that and then the name and itll change on the menu-->
-    <label for="ColinChoice">Delivery Fee - $</label>1000
-    <input type="number" value="1" min="1">
-  </div>
-  
 
   
   <div style="margin-bottom: 25px;"></div>
